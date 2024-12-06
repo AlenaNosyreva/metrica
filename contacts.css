@@ -19,10 +19,10 @@
 
 
 .contact__tel::before{
-   background-image: url(../resources/contact_tel.png);
+   background-image: url(contact_tel.png);
 }
 .contact__mail::before{
-   background-image: url(../resources/contact_mail.png);
+   background-image: url(contact_mail.png);
 }
 
 .contact__tel{
