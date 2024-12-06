@@ -1,0 +1,87 @@
+@import "/styles/header.css";
+@import "/styles/burger.css";
+@import "/styles/intro.css";
+@import "/styles/history.css";
+@import "/styles/project.css";
+@import "/styles/services.css";
+@import "/styles/popup.css";
+@import "/styles/feedback.css";
+@import "/styles/gallery.css";
+@import "/styles/contacts.css";
+@import "/styles/footer.css";
+@import "/styles/headers.css";
+@import "/styles/nav.css";
+@import "/styles/buttons.css";
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  width: 100%;
+}
+
+.body_fixed{
+    overflow: hidden;
+}
+
+main{
+    background: #ffffff;
+}
+.container{
+    max-width: 1150px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+section {
+    margin: 0 auto;
+    max-width: 1150px;
+    padding-top: 150px;
+}
+.section-long{
+    padding-bottom: 150px;
+}
+.container-black{
+    background-color: #121212;
+    color: #fff;
+}
+
+h1,
+h2, 
+h3, 
+p, 
+a, 
+ul, 
+li, 
+button, 
+div{
+  letter-spacing: -0.03em;
+}
+
+button{
+    font-family: inherit;
+    cursor: pointer;
+}
+@media (max-width: 1199px) {
+    section{
+        padding: 120px 15px 0 17px;
+    }
+    .section-long{
+        padding-bottom: 90px;
+    }
+    .container{
+        padding: 30px 15px 0 17px;
+    }
+}
+@media (max-width: 767px) {
+    section{
+        padding: 80px 12px 0 13px;
+    }
+    .container{
+        padding: 30px 15px 0 17px;
+      }
+}
+
+
+ 

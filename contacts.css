@@ -1,0 +1,89 @@
+.contacts__information{
+   display: flex;
+   margin-top: 25px;
+   width: 100%;
+   gap: 105px;
+}
+
+.contact__tel::before,
+.contact__mail::before{
+   content: "";
+   display: block;
+   margin-bottom: 26px;
+   width: 24px;
+   height: 24px;
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+
+
+.contact__tel::before{
+   background-image: url(../resources/contact_tel.png);
+}
+.contact__mail::before{
+   background-image: url(../resources/contact_mail.png);
+}
+
+.contact__tel{
+   display: block;
+   font-size: 60px;
+   line-height: 60px;
+   text-decoration: none;
+   color: #121212;
+}
+
+.contact__mail{
+   display: block;
+   border-bottom: 2px solid;
+   font-size: 60px;
+   line-height: 60px;
+   color: #121212;
+   opacity: 0.5;
+   text-decoration: none;
+}
+
+@media (max-width: 1199px){
+   .contacts__information{
+      gap: 80px;
+      margin-top: 60px;
+   }
+
+   .contact__tel{
+      font-size: 45px;
+      line-height: 60px;
+   }
+
+   .contact__mail{
+      font-size: 45px;
+      line-height: 60px;
+   }
+}
+
+@media (max-width: 767px) {
+   .contacts__information{
+      flex-direction: column;
+      gap: 80px;
+      margin-bottom: 50px;
+   }
+
+   .contact__tel{
+      font-size: 35px;
+      line-height: 45px;
+   }
+
+   .contact__tel::before{
+      top: -50px;
+   }
+
+   .contact__mail{
+      border-bottom: none;
+      font-size: 35px;
+      line-height: 45px;
+      opacity: 1;
+   }
+
+   .contact__mail::before{
+      top: -50px;
+   }
+}

@@ -1,0 +1,32 @@
+.footer__inner{
+  display: flex;
+  justify-content: center;
+}
+
+.footer__nav{
+  display: flex;
+  justify-content: space-between;
+  width: 450px;
+}
+
+.link-footer{
+  color: #ffff
+}
+
+.footer__text{
+  padding-top: 70px;
+  padding-bottom: 30px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 27px;
+  color: #ffffff;
+  opacity: 0.5;
+}
+
+@media (max-width: 767px) {
+  .footer__text{
+    padding-top: 50px;
+    font-size: 12px;
+    line-height: 18px;
+  }
+}

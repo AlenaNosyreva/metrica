@@ -1,0 +1,21 @@
+.history__text {    
+    width: 1048px;
+    margin-bottom: 30px;
+    font-size: 45px;
+    line-height: 61.47px;
+}
+
+@media (max-width: 1199px) {
+    .history__text{
+        width: 80%;
+        font-size: 35px;
+        line-height: 48px;
+    }
+}
+
+@media (max-width: 767px) {
+    .history__text{
+        font-size: 22px;
+        line-height: 30px;
+    }
+}

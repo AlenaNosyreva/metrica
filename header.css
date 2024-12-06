@@ -1,0 +1,26 @@
+.header__inner{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 126px;
+    height: 21px;
+}
+
+.header__nav{
+    display: flex;
+    gap: 60px;
+}
+
+.nav-header{
+    color: #121212;
+}
+
+@media (max-width: 1199px) {
+    .header__nav{
+        display: none;
+    }
+}
